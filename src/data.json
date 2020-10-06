@@ -1,0 +1,64 @@
+{
+ "contactsList": [
+        {
+            "id": 1,
+            "name": "Andre Lima", 
+            "avatar_id": "DItYlc26zVI",
+            "hour": "22:50"
+        },
+        {
+            "id": 2,
+            "name": "Maria Silva", 
+            "avatar_id": "bsU_7Ln2E2Y",
+            "hour": "21:00"
+        },
+        {
+            "id": 3,
+            "name": "João Moura", 
+            "avatar_id": "K84vnnzxmTQ",
+            "hour": "20:25"
+        },
+        {
+            "id": 4,
+            "name": "Carlos Júnior", 
+            "avatar_id": "tAvpDE7fXgY",
+            "hour": "20:05"
+        },
+
+        {
+            "id": 5,
+            "name": "Bruna Costa", 
+            "avatar_id": "cesEUoTzqRc",
+            "hour": "19:05"
+        },
+        {
+            "id": 6,
+            "name": "Vinícius Assis", 
+            "avatar_id": "hh3ViD0r0Rc",
+            "hour": "18:30"
+        },
+        {
+            "id": 7,
+            "name": "Clarissa Lima", 
+            "avatar_id": "UMMhXbFJYmk",
+            "hour": "17:05"
+        },
+        {
+            "id": 8,
+            "name": "Yuri Regis", 
+            "avatar_id": "s8TTo8VXYWs",
+            "hour": "14:00"
+        }
+    ], 
+    "conversation": [
+        { "author": 2 , "body": "Oii amiga"},
+        { "author": 1000 , "body": "E aí, como vai?"},
+        { "author": 2 , "body": "Vou bem e você?"},
+        { "author": 1000 , "body": "Tudo otimo. Agora tô fazendo curso de inglês."},
+        { "author": 2 , "body": "Que legal, aonde? Eu também tava querendo fazer."},
+        { "author": 1000 , "body": " Na única plataforma de ensino de inglês com aulas ao vivo todos os dias com professoras americanas e bilíngues, além de centenas de vídeos e exercícios para você finalmente destravar o seu inglês."},
+        { "author": 1000 , "body": "Vale a pena conferir, estou amando. Dá uma olhada no site."},
+        { "author": 1000 , "body": "https://soulphia.com/"},
+        { "author": 2 , "body": "Adorei, vou começar hoje mesmo."}
+    ]
+}

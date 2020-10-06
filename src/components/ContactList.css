@@ -1,0 +1,56 @@
+.contactList {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    height: 72px;
+    border-bottom: 1px solid #F7F7F7;
+}
+
+.contactList:hover{
+    background-color: #F7F7F7;
+}
+
+.contactList.active {
+    background-color: #F7F7F7;
+}
+
+.contactList-avatar{
+    width: 49px;
+    height: 49px;
+    margin: 11px 33px 13px;
+}
+
+.contactList-info {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+}
+
+.contactList-name {
+    font-size: 13px;
+    line-height: 20px;
+    display: flex;
+    flex: 1;
+}
+
+.contactList-hour {
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 17px;
+    margin-right: 21px;
+    padding-left: 2px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width:768px) {
+
+    .contactList-avatar{
+        width: 49px;
+        height: 49px;
+        margin: 11px 18px 13px;
+    }
+    
+}

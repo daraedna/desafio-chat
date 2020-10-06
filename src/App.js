@@ -1,25 +1,64 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 
+import ContactList from './components/ContactList';
+import ChatContent from './components/ChatContent';
+import ChatIntro from './components/ChatIntro';
+
+import { contactsList } from './data.json';
+
+import MenuIcon from '@material-ui/icons/Menu';
+
 function App() {
+
+
+  const [contacts, setContancts] = useState(contactsList);
+  const [activeChat, setActiveChat] = useState(contactsList);
+  const [user, setUser] = useState({
+      id: 1000
+  })
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className="app">
+        <div className="sidebar"> 
+          <header>
+            <div className="menu">
+              <MenuIcon fontSize="inherit"/>
+            </div>
+          </header>
+
+          <div className="search">
+            <div className="search-input"> 
+              <input type="search" placeholder="Buscar"/> 
+            </div>
+          </div>
+
+          <div className="contacts"> 
+            {contacts.map((item, key)=> (
+              <ContactList
+                key={key}
+                data={item}
+                active={activeChat.id === contacts[key].id}
+                onClick={()=>setActiveChat(contacts[key])}
+              />
+            ))}
+          </div>
+        </div>
+
+        <div> 
+            {activeChat.id !== undefined &&
+              <ChatContent
+                data={activeChat}
+                user={user}
+              />
+            }
+
+            {activeChat.id === undefined &&
+              <ChatIntro/>
+            }
+
+        </div>
+     </div>
   );
 }
 
