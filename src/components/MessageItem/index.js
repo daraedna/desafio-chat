@@ -1,5 +1,5 @@
 import React from 'react';
-import './MessageItem.css';
+import './styles.css';
 
 function MessageItem({chat, user, contact}) {
 

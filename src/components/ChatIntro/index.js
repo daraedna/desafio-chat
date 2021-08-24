@@ -1,7 +1,7 @@
 import React from 'react';
-import './ChatIntro.css'
+import './styles.css';
 
-import bg from './assets/bg.png'
+import bg from '../assets/bg.png';
 
 function ChatIntro() {
     return (

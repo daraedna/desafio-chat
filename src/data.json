@@ -1,5 +1,5 @@
 {
- "contactsList": [
+ "chatList": [
         {
             "id": 1,
             "name": "Andre Lima", 
@@ -48,7 +48,27 @@
             "name": "Yuri Regis", 
             "avatar_id": "s8TTo8VXYWs",
             "hour": "14:00"
+        }, 
+        {
+            "id": 9,
+            "name": "Yuri Regis", 
+            "avatar_id": "s8TTo8VXYWs",
+            "hour": "14:00"
+        }, 
+        {
+            "id": 10,
+            "name": "Yuri Regis", 
+            "avatar_id": "s8TTo8VXYWs",
+            "hour": "14:00"
+        }, 
+        {
+            "id": 11,
+            "name": "Yuri Regis", 
+            "avatar_id": "s8TTo8VXYWs",
+            "hour": "14:00"
         }
+
+        
     ], 
     "conversation": [
         { "author": 2 , "body": "Oii amiga"},
@@ -59,6 +79,10 @@
         { "author": 1000 , "body": " Na única plataforma de ensino de inglês com aulas ao vivo todos os dias com professoras americanas e bilíngues, além de centenas de vídeos e exercícios para você finalmente destravar o seu inglês."},
         { "author": 1000 , "body": "Vale a pena conferir, estou amando. Dá uma olhada no site."},
         { "author": 1000 , "body": "https://soulphia.com/"},
+        { "author": 2 , "body": "Adorei, vou começar hoje mesmo."},
+        { "author": 2 , "body": "Adorei, vou começar hoje mesmo."},
+        { "author": 2 , "body": "Adorei, vou começar hoje mesmo."},
+        { "author": 2 , "body": "Adorei, vou começar hoje mesmo."},
         { "author": 2 , "body": "Adorei, vou começar hoje mesmo."}
     ]
 }

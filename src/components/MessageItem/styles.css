@@ -4,26 +4,27 @@
 }
 
 .message-item {
-    background: #FFFFFF;
+    background: #FFF;
     border-radius: 10px 10px 10px 0px;
+    box-shadow: 0 1px 1px #CCC;
     display: flex;
     flex-direction: column;
     max-width: 90%;
+    padding: 3px;
 }
 
 .message-text {
-    font-size: 13px;
+    font-size: 14px;
     color: #333333;
     line-height: 20px;
-    margin: 9px 15px 0;
-
+    margin: 5px 44px 5px 5px;
 }
 
 .message-hour {
     font-size: 11px;
     color: #9A9A9A;
     text-align: right;
-    line-height: 17px;
-    margin-bottom: 7px;
+    height: 15px;
     margin-right: 10px;
+    margin-top: -15px;
 }

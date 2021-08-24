@@ -12,9 +12,9 @@ body{
 .app {
   background: #F7F7F7;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.06);
-  width: 70vw;
+  width: 90%;
   height: 96vh;
-  margin: 2vh auto;
+  margin: 1vh auto;
   display: flex;
   overflow-x: auto;
 }
@@ -31,21 +31,36 @@ header{
   background-color: #FC0042;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
 }
 
-.menu {
+.header-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
   cursor: pointer;
-  margin-top: 10px;
-  margin-left: 10px;
-  color: white;
-  font-size: 45px;
-  text-align: center;
+}
+
+.header-buttons {
+  display: flex;
+}
+
+.header-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .search {
   height: 60px;
   border-color: #FBFBFB;
-
+  border-bottom: 1px solid #EEE;
+  padding: 5px 15px;
 }
 
 .search-input {
@@ -53,7 +68,7 @@ header{
   border-bottom: 1px solid #CCCCCC;
   border-radius: 4px;
   margin: 10px 10px 16px;
-  height: 34px;
+  height: 40px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075);
   display: flex;
   align-items: center;
@@ -68,21 +83,24 @@ header{
   margin-left: 10px;
 }
 
-.contacts {
+.chatlist {
   flex: 1;
   background-color: #FFFFFF;
   border: 1px solid #F7F7F7;
   overflow-y: auto;
-
 }
 
-.contacts::-webkit-scrollbar{
+.chatlist::-webkit-scrollbar{
   width: 6px;
   height: 6px;
 }
 
-.contacts::-webkit-scrollbar-thumb {
-  background-color: #CCCCCC;
+.chatlist::-webkit-scrollbar-thumb {
+  background-color: #CCC;
+}
+
+.content-area {
+  flex: 1;
 }
 
 @media (max-width:768px) {
